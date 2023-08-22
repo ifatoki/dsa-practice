@@ -11,9 +11,9 @@
 */
 
 /**
- * @param {string[]} words
- * @param {string} order
- * @return {boolean}
+ @param {string[]} words
+ @param {string} order
+ @return {boolean}
  */
 var isAlienSorted = function(words, order) {
   if (words.length === 1) return true;

@@ -24,5 +24,5 @@ function countNegatives(grid: number[][]): number {
   return count;
 };
 
-// Time: O(n * m)
+// Time: O(n m)
 // Space: O(1)

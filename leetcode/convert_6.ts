@@ -31,7 +31,7 @@
 
 function convert(s: string, numRows: number): string {
   let result: string = '';
-  let firstCharInterval = 2 * numRows - 3;
+  let firstCharInterval = 2 numRows - 3;
 
   if (numRows === 1) return s;
   result += getStringOfCharsAtIntervals(0, firstCharInterval, firstCharInterval)

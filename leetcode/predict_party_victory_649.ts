@@ -1,4 +1,4 @@
-/** 
+/*
   649. Dota2 Senate
   
   In the world of Dota2, there are two parties: the Radiant and the Dire.
@@ -52,5 +52,5 @@ function predictPartyVictory(senate: string): string {
   }
 };
 
-// Time: O(n * n)
+// Time: O(n n)
 // Space: O(n)

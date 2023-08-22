@@ -31,7 +31,7 @@ var kthGrammar = function (n, k) {
   let row = map[1][0];
   let m = 1;
   
-  while (2 ** m <= k) {
+  while (2 *m <= k) {
     m++;
     map[m] = [`${row}${map[m - 1][1]}`, `${map[m - 1][1]}${row}`];
   // console.log(map)

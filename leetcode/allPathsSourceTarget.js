@@ -1,6 +1,6 @@
 /**
- * @param {number[][]} graph
- * @return {number[][]}
+ @param {number[][]} graph
+ @return {number[][]}
  */
 var allPathsSourceTarget = function(graph) {
   const start = 0;

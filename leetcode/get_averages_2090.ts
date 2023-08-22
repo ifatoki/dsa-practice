@@ -20,7 +20,7 @@
  */
 function getAverages(nums: number[], k: number): number[] {
   const result: number[] = [...nums].fill(-1);
-  const count: number = 2 * k + 1;
+  const count: number = 2 k + 1;
   let prevSum: number = 0;
 
   if (k >= nums.length / 2) return result;

@@ -1,5 +1,5 @@
 var findDiagonalOrder = function(mat) {
-  const result = Array(mat.length * mat[0].length);
+  const result = Array(mat.length mat[0].length);
   let directionIsUp = true;
   let x = 0;
   let y = 0;
